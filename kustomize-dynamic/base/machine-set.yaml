@@ -1,0 +1,10 @@
+apiVersion: machine.openshift.io/v1beta1
+kind: MachineSet
+metadata:
+  name: placeholder-name
+  namespace: openshift-machine-api
+  annotations:
+    argocd.argoproj.io/sync-options: Validate=false,ServerSideApply=true
+spec:
+  replicas: 1
+
