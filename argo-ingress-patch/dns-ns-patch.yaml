@@ -1,0 +1,7 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: openshift-dns
+  labels:
+    app.kubernetes.io/managed-by: argocd
+    foo: bar
