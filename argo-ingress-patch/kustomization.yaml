@@ -1,0 +1,4 @@
+resources:
+- dns-ns-patch.yaml
+#- ingress-ns.yaml
+- service.yaml
