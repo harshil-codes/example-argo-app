@@ -1,0 +1,8 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: openshift-ingress
+  annotations:
+    argocd.argoproj.io/sync-options: Validate=false,ServerSideApply=true
+  labels:
+    app.kubernetes.io/managed-by: argocd
