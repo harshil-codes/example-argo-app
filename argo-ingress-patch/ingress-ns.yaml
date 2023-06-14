@@ -4,3 +4,4 @@ metadata:
   name: openshift-ingress
   labels:
     app.kubernetes.io/managed-by: argocd
+    foo: bar
